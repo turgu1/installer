@@ -8,7 +8,7 @@ sudo apt install ruby pgadmin3 openssh-server
 sudo gem install src/bundler-1.16.2.gem
 sudo gem install src/rake-12.3.1.gem
 
-bundle install --local
+bundle install --local --path vendor/bundle
 
 mkdir -p ~/Dev
 cd ~/Dev

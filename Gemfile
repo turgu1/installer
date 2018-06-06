@@ -9,6 +9,6 @@ gem 'capistrano-ssh-doctor',      '~> 1.0'
 gem 'capistrano-secrets-yml',     '~> 1.1.0'
 gem 'sshkit-sudo'
 gem 'capistrano-unicorn-nginx',   '~> 5.2.0'
-gem 'capistrano-postgresql',      '~> 4.9.2'
+gem 'capistrano-postgresql',      '~> 5.0.0'
 
 
