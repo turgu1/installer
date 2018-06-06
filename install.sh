@@ -13,5 +13,19 @@ bundle install --local --path vendor/bundle
 mkdir -p ~/Dev
 cd ~/Dev
 
-git clone https://github.com/turgu1/spaceman.git
-git clone https://github.com/turgu1/sciencia.git
+if [ ! -e staging.rb ]; then
+	cp src/staging.rb .
+fi
+
+if [ ! -e production.rb ]; then
+	cp src/production.rb .
+fi
+
+if [ ! -d spaceman ]; then
+  git clone https://github.com/turgu1/spaceman.git
+fi
+
+if [ ! -d sciencia ]; then
+  git clone https://github.com/turgu1/sciencia.git
+fi
+
