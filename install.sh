@@ -13,12 +13,12 @@ bundle install --local --path vendor/bundle
 mkdir -p ~/Dev
 cd ~/Dev
 
-if [ ! -e staging.rb ]; then
-	cp src/staging.rb .
+if [ ! -e ~/Dev/staging.rb ]; then
+	cp src/staging.rb ~/Dev
 fi
 
-if [ ! -e production.rb ]; then
-	cp src/production.rb .
+if [ ! -e ~/Dev/production.rb ]; then
+	cp src/production.rb ~/Dev
 fi
 
 if [ ! -d spaceman ]; then
