@@ -3,7 +3,7 @@
 sudo apt-get -y update
 sudo apt-get -y upgrade
 
-sudo apt install ruby pgadmin3 openssh-server
+sudo apt-get -y install ruby pgadmin3 openssh-server
 
 sudo gem install src/bundler-1.16.2.gem
 sudo gem install src/rake-12.3.1.gem
